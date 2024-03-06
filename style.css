@@ -1,0 +1,407 @@
+#logo{
+    /* background:gold; */
+    font-weight: 800;
+text-transform: uppercase;
+}
+#nav{
+    background:pink;
+}#navbar{
+    background:skyblue;
+}
+body{
+    /* background:gray; */
+}
+#sidebar{
+    background:white;
+}
+ul>li{
+    list-style: none;
+}
+a{
+    color: #000;
+    text-decoration: none;
+}
+body{
+    /* background-color: antiquewhite; */
+}
+.container{
+    /* border: 2px solid blue; */
+}
+
+/* FRONT PAGE  start  */
+#front{
+    margin-bottom: 15rem;
+}
+.textsection{
+    width: 34em;
+    height: 15em;
+    margin: 4.6rem 0 3rem 0;
+}
+.textsection p{
+    font-family:  'Arial Narrow', Arial, sans-serif;
+}
+.textsection h1{
+letter-spacing: -0.1em;
+font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+margin-bottom: -1rem;
+}
+.textsection h3{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+    font-weight: 800;
+    letter-spacing: 0.5rem;
+    word-spacing: 0.4rem;
+    margin-top: 0.8rem;
+}
+.textsection h4{
+    margin-bottom: -1.6rem;
+    font-weight: 600;
+}
+#dot{
+font-size: 4.6rem;
+}
+span{
+    color: #0ef;
+}
+.icons {
+    width: 15rem;
+    height: 5rem;
+    padding: 0px 18px;
+    display: flex;
+}
+.icons i {
+    margin: 0.3em -18px;
+    width: 5rem;
+    height: 5rem;
+    font-size: 1.3rem;
+    color: #0ef;
+    cursor: pointer;
+}
+.btn{
+    margin-top: -2.2rem;
+}
+.btn button{
+    color: #fff;
+    border: 2px solid #0ef;
+    background-color: #0ef;
+    box-shadow:  2px 2px  1rem #0ef;
+    border-radius: 12px;
+    font-weight: 600;
+    cursor: pointer;
+    margin-top: -4rem;
+    transition: 5s ease;
+}
+#frontimg img{
+    width: 19rem;
+    height: 18rem;
+    margin: 5.6rem 0 3rem 4rem;
+    border-bottom: 8px solid #0ef; 
+    border-top: 1px solid #0ef; 
+    border-right: 1px solid #0ef; 
+    border-left: 1px solid #0ef; 
+    margin-left: 1rem;
+}  
+           /* front page close */
+
+   /* ABOUT PAGE START */
+#roow{
+        width: 92vw;
+        height: 83vh;
+        margin-top: 0.1rem;
+    }
+    #roow{
+        display: flex;
+    }
+    #colimg img{
+        width: 21rem;
+        height: 18.5rem;
+        margin: 4rem 3rem;
+        border: 2px solid #0ef; 
+        transition: .5s ease;
+    }
+    #colabout{
+        text-align: center;
+        width: 40vw;
+        height: 50vh;
+         margin:4rem ; 
+    }
+    #colabout button{
+        color: #fff;
+        border: 2px solid #0ef;
+        background-color: #0ef;
+        box-shadow:  2px 2px  1rem #0ef;
+        border-radius: 12px;
+        font-weight: 600;
+        cursor: pointer;
+        margin-top: -4rem;
+        transition: 5s ease;
+    }
+    #colabout  p{
+        font-family:  'Arial Narrow', Arial, sans-serif;
+        margin-left:0px ;
+        padding-left: 0px;  
+        margin: 1.2rem 0 2rem;
+    }
+    #colabout   h1{
+    letter-spacing: 0.2em;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+    margin-bottom: 1rem;
+    }
+    #colabout     h3{
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+        font-weight: 800;
+        letter-spacing: 0.5rem;
+        word-spacing: 0.4rem;
+        color: #0ef;
+    }    
+    /* ABOUT PAGE CLOSE  */
+    
+/* SERVICE PAGE START  */
+.servicepage > .row{
+    /* border: 3px solid black; */
+    width: 92vw;
+    height: 83vh;
+    margin-top: 5rem;
+    background-color: blueviolet;  
+} 
+.col-md-12{
+     display: flex;
+    justify-content: center;
+    align-items: center; 
+    margin: 7rem 0 3rem;
+}
+.col-md-4{
+    background-color: #323946;
+}
+#web{
+    width:auto ;
+    height: auto;
+    /* flex:1 1 30rem; */
+    color: aliceblue;
+    text-align: center;
+    border-radius: 2rem;
+    padding: 3rem 2rem 4rem;
+    margin:0.5rem 3rem 0.5rem 0.5rem ;
+}
+#network{
+    width:auto ;
+    height: auto;
+    /* flex:1 1 30rem; */
+    color: aliceblue;
+    text-align: center;
+    border-radius: 2rem;
+    padding: 3rem 2rem 4rem;
+    margin:0.5rem 0.5rem 0.5rem 0.5rem ;
+}
+#teaching{
+    width:auto ;
+    height: auto;
+    color: aliceblue;
+    text-align: center;
+    border-radius: 2rem;
+    padding: 3rem 2rem 4rem;
+    margin:0.5rem 0.5rem 0.5rem 0.5rem ;
+}
+.col-md-4 button{
+    color: #fff;
+    border: 2px solid #0ef;
+    background-color: #0ef;
+    box-shadow:  2px 2px  1rem #0ef;
+    border-radius: 12px;
+    font-weight: 600;
+    cursor: pointer;
+    margin-top: -4rem;
+    transition: 5s ease;
+}
+.col-md-4 i{
+    color: #0ef;
+    font-size: 2.4rem;
+}
+.servicepage h1{
+    text-align: center;
+    font-weight :800;
+    letter-spacing: 0.2em;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+    margin-bottom: 4rem;
+    margin-top: 3rem;
+}       
+ /*  service page close */
+
+ .textarea{
+    margin-top: 2rem;
+}
+.textarea button {
+justify-content: center;
+}
+.textarea button{
+         color: #fff;
+        border: 1px solid #0ef;
+        background-color: #0ef;
+        box-shadow:  2px 2px  1rem #0ef;
+        border-radius: 12px;
+        font-weight: 600;
+        cursor: pointer;
+        transition: 5s ease;   
+        margin: 2.9rem 25rem;
+    } 
+    #last h1{
+          margin: 2rem 23rem 2rem;
+    }
+
+
+/* FOOTER PAGE START  */
+#footerlast{
+    /* margin:3rem 0 0 ; */
+    color:aliceblue ;
+    background-color: #323946;
+    height: 5rem;
+    margin: 0 0 0rem;
+}
+
+#footer p{
+    align-items:center ;
+    font-size: 1rem;
+    margin: 10px 9rem 1rem;
+    padding-bottom: 9px;
+}
+footer i{
+    font-size: 1.3rem;
+    padding: 0 1rem;
+    color: #0ef;
+}
+.footericons{
+    margin-left: 13rem;
+} 
+
+.up i{
+    font-size: 2rem;
+    color: #0ef;
+}
+.up{
+    position: relative;
+    right: -51rem;
+    bottom: 4.3rem;
+    width: 3rem;
+    height: 1rem;
+}
+          /* footer page close  */
+
+          /* MEDIA QUERY START     */
+
+@media  screen and (max-width:374px ) {   /*  Extra small size device*/    
+    body{
+            /* background-color: lightpink; */
+            }
+}
+@media  screen and (min-width:481px ) and (max-width:768px ) { /*  Medium / Ipad size device*/
+    body{
+            /* background-color: lightskyblue; */
+            }
+}
+@media  screen and (min-width:769px ) and (max-width:1024px ) { /*  Large / Laptop size device*/
+    body{
+            /* background-color: lightgreen; */
+            }
+}
+@media  screen and (min-width:1025px ) and (max-width:1600px ) { /*  Extra Large / Desktop size device*/
+    body{
+            /* background-color: lightsalmon; */
+            }
+}
+          @media  screen and (min-width:375px ) and (max-width:480px ) { /* Small / Mobile size device*/
+    body{
+
+        /* background-color: antiquewhite;  */
+       }
+    .textsection{
+        width: 100%;
+        height: 18em;
+        margin: 2.6rem 0 3rem 0;
+    }
+    .textsection p{
+    font-family: 'Arial Narrow', Arial, sans-serif;
+    letter-spacing: 0px;
+    word-spacing: -2px;
+    text-wrap: balance;
+    }
+    .textsection h3{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 800;
+    letter-spacing: 4px;
+    word-spacing: 5px;
+    margin-top: 0.8rem;
+    }
+    #frontimg img{
+        margin: -12.4rem 0 3rem 1rem;
+    }
+    #colabout{
+        text-align: center;
+        width: 100vw;
+        height: 50vh;
+        margin: -61rem 1rem;
+    }
+    #colimg img{
+        margin: 22rem 2rem;
+    }
+    #last h1{
+    margin: 2rem 7.5rem 2rem;
+    width: 11rem;
+}
+#footerlast{
+        /* margin: 3rem 0 0; */
+        color: aliceblue;
+        background-color: #323946;
+        height: 5rem;
+        margin: 38px 0 0rem;
+}
+/* #cont{
+    border: 5px solid blue;
+    margin: 38px 0 0rem;
+} */
+    #footer p{
+        align-items: center;
+    font-size: 1rem;
+    width: 65vh;
+    margin: 0rem -0.5rem;
+    width: 18rem;
+}
+    footer i{
+    font-size: 1.3rem;
+    padding: 0 1rem;
+    color: #0ef;
+}
+    #upicon{
+    margin:  1px 3px 1px 14rem;
+}
+    .footericons{
+    display: flex;
+    justify-content:center ;
+    margin-left: 8rem;
+} 
+    .up i{
+    font-size: 2rem;
+    color: #0ef;
+}
+    .up{
+    position: relative;
+    right: -51rem;
+    bottom: 4.3rem;
+    width: 3rem;
+    height: 1rem;
+}
+#upicon{
+    margin:1px 114px 1px 3rem ;
+}
+.textarea button{
+    color: #fff;
+    border: 1px solid #0ef;
+    background-color: #0ef;
+    box-shadow: 2px 2px 1rem #0ef;
+    border-radius: 12px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 5s ease;
+    margin: 4.9rem 7.2rem;
+}
+
+
+}
